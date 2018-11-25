@@ -5,9 +5,7 @@ monthly: 10th BD
 pmt: 20th or next BD
 pmt_posting: pmt date - 1
 LIBOR: 2BD prior to posting
-    
-    
-
+  
 """
 import datetime
 import numpy as np
