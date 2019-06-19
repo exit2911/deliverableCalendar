@@ -1,27 +1,4 @@
-"""
-DEAL: Clear Creek
 
-    monthly: 10th BD
-    pmt: 20th or next BD
-    pmt_posting: pmt date - 1
-    LIBOR: 2BD prior to posting
-    
-DEAL: Pearls
-
-    cutoff: 5th BD of Jan,April,July,Oct
-    pmt: 22th or next BD 
-
-DEAL: GCP F5
-
-    cutoff: 5th of Jan,April,July,Oct or next BD
-    pmt: 22th or next BD 
-
-DEAL: CLO24
-
-    pmt: 5th or next BD on Feb,May,Aug,Nov 
-    monthly: 5th or next BD
-    cutoff: 10th BD prior to 5th or next BD
-"""
 import datetime
 import numpy as np
 import holidays
